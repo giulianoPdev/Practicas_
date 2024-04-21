@@ -3,16 +3,22 @@
 *{
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    margin: 0 auto;
+    background-color: black;
+}
+
+body{
+    background-color: rgb(41, 41, 51);
+    color: white;
 }
 
 header{
     width: 600px;
-    margin: 0 auto;
+    border-bottom: 1px solid rgb(102, 102, 102);
 }
 
 .title{
     padding-left: 10px;
-    background-color: red;
     display: flex;
     align-items: center;
 }
@@ -31,16 +37,13 @@ i{
 
 .container{
     display: flex;
-    justify-content: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .profiles{
-    width: 100px;
-    margin-right: 35px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .imagenes{
@@ -56,7 +59,6 @@ main{
     margin: 0 auto;
 }
 .cabeza_publicacion{
-    background-color: rgb(255, 0, 0);
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -80,11 +82,30 @@ article img{
     width: 600px;
 }
 
+.interacciones{
+    list-style: none;
+    padding-left: 10px;
+    display: flex;
+    gap: 15px;
+}
 
+.guardar{
+    padding-left: 380PX;
+}
 
+footer{
+    border-top: 1px solid rgb(102, 102, 102);
+    width: 600px;
+}
 
+.opciones{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-
-
-
-
+.opciones li{
+    margin: 0px;
+}
