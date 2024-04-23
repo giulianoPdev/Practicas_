@@ -7,30 +7,37 @@
     background-color: black;
 }
 
+header,main,footer{
+    width: 600px;
+}
+
 body{
     background-color: rgb(41, 41, 51);
     color: white;
 }
 
 header{
-    width: 600px;
     border-bottom: 1px solid rgb(102, 102, 102);
 }
 
 .title{
     padding-left: 10px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+.title span{
+    margin: 0;
 }
 
 .iconos{
     list-style: none;
     display: flex;
-    justify-content: end;
     margin: 5px;
-    padding-left: 400px;
 }
 
+/* aplico margin para separar iconos y inflar un poco el header */
 i{
     margin: 10px;
 }
@@ -54,24 +61,27 @@ i{
     background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
-main{
-    width: 600px;
-}
 .cabeza_publicacion{
     display: flex;
     align-items: center;
+    justify-content: sp;
     padding-left: 10px;
-    height: 50px;
+    height: 55px;
+}
+
+.cabeza_publicacion span{
+    margin: 0;
 }
 
 .cabeza_publicacion i{
-    padding-left: 430px;
+    padding-left: 400px;
 }
 
 .rosario{
     width: 40px;
     border-radius: 50px;
     padding: 3px;
+    margin: 0;
     margin-right: 5px;
     background-color: #4158D0;
     background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
@@ -89,18 +99,21 @@ article img{
 }
 
 .guardar{
-    padding-left: 380PX;
+    padding-left: 300PX;
 }
 
 footer{
     border-top: 1px solid rgb(102, 102, 102);
-    width: 600px;
 }
 
 .opciones{
     padding: 0px;
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.opciones li{
+    margin: 0;
 }
